@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*header*/
+
+header{
+ background: linear-gradient(#f0f0f0,#c0c0c0);
+ padding-top: 15px;
+}
+
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a:hover{
+    transition: 0.2s;
+    color:#473e3b;
+    text-decoration: underline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*fim do header*/   
+
+.titulo-principal{
+    color:rgb(129, 119, 139);
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: #f0f0f0;
+    
+}
+
+p{
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+h2,h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ iframe{
+    margin-left: 500px;
+ }
+ li{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+ }
+
+ /*footer*/
+
+ footer{
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding: 15px 0px;
+ }
+
+ .redes a{
+    margin: 0 10px;
+    text-decoration: none;
+ }
+
+ .redes img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity:60%;
+ }
+
+ .copyright{
+    font-size: 13px;
+    color: white;
+    margin-top: 15px;
+ }
